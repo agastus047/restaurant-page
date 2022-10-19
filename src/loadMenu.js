@@ -1,13 +1,42 @@
 function menuLoad() {
     const contentBody = document.querySelector('.content-body');
     contentBody.textContent = '';
+    const menuContent = document.createElement('div');
+    menuContent.classList.add('menu-content');
+    contentBody.appendChild(menuContent);
     const element1 = document.createElement('div');
     element1.classList.add('element');
-    contentBody.appendChild(element1);
+    menuContent.appendChild(element1);
     const bfImage = document.createElement('img');
     bfImage.setAttribute('src','../src/pics/breakfast.jpg');
     bfImage.classList.add('breakfast-image');
     element1.appendChild(bfImage);
+    const text1 = document.createElement('div');
+    text1.classList.add('element-text');
+    text1.textContent = "Breakfast";
+    element1.appendChild(text1);
+    const element2 = document.createElement('div');
+    element2.classList.add('element');
+    menuContent.appendChild(element2);
+    const lunchImage = document.createElement('img');
+    lunchImage.setAttribute('src','../src/pics/lunch.jpg');
+    lunchImage.classList.add('lunch-image');
+    element2.appendChild(lunchImage);
+    const text2 = document.createElement('div');
+    text2.classList.add('element-text');
+    text2.textContent = "Lunch";
+    element2.appendChild(text2);
+    const element3 = document.createElement('div');
+    element3.classList.add('element');
+    menuContent.appendChild(element3);
+    const dinnerImage = document.createElement('img');
+    dinnerImage.setAttribute('src','../src/pics/dinner.jpg');
+    dinnerImage.classList.add('dinner-image');
+    element3.appendChild(dinnerImage);
+    const text3 = document.createElement('div');
+    text3.classList.add('element-text');
+    text3.textContent = "Dinner";
+    element3.appendChild(text3);
 }
 
 export {menuLoad};
