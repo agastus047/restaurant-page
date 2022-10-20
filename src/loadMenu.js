@@ -8,7 +8,7 @@ function menuLoad() {
     element1.classList.add('element');
     menuContent.appendChild(element1);
     const bfImage = document.createElement('img');
-    bfImage.setAttribute('src','../dist/pics/breakfast.jpg');
+    bfImage.setAttribute('src','./pics/breakfast.jpg');
     bfImage.classList.add('breakfast-image');
     element1.appendChild(bfImage);
     const text1 = document.createElement('div');
@@ -19,7 +19,7 @@ function menuLoad() {
     element2.classList.add('element');
     menuContent.appendChild(element2);
     const lunchImage = document.createElement('img');
-    lunchImage.setAttribute('src','../dist/pics/lunch.jpg');
+    lunchImage.setAttribute('src','./pics/lunch.jpg');
     lunchImage.classList.add('lunch-image');
     element2.appendChild(lunchImage);
     const text2 = document.createElement('div');
@@ -30,7 +30,7 @@ function menuLoad() {
     element3.classList.add('element');
     menuContent.appendChild(element3);
     const dinnerImage = document.createElement('img');
-    dinnerImage.setAttribute('src','../dist/pics/dinner.jpg');
+    dinnerImage.setAttribute('src','./pics/dinner.jpg');
     dinnerImage.classList.add('dinner-image');
     element3.appendChild(dinnerImage);
     const text3 = document.createElement('div');

@@ -28,7 +28,7 @@ function initialLoad() {
     homeContent.classList.add('home-content');
     contentBody.appendChild(homeContent);
     const bgImage = document.createElement('img');
-    bgImage.setAttribute('src','../dist/pics/jay-wennington-N_Y88TWmGwA-unsplash.jpg');
+    bgImage.setAttribute('src','./pics/jay-wennington-N_Y88TWmGwA-unsplash.jpg');
     bgImage.classList.add('home-image');
     homeContent.appendChild(bgImage);
     const infoText = document.createElement('h2');
