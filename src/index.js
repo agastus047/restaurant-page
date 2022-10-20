@@ -1,6 +1,7 @@
 import {initialLoad} from "./loadHome";
 import {menuLoad} from "./loadMenu";
 import {homeReload} from "./reloadHome";
+import {contactLoad} from "./loadContact";
 
 initialLoad();
 
@@ -15,5 +16,9 @@ menuBtn.addEventListener('click',(e) => {
     menuLoad();
 });
 const contactBtn = document.querySelector('.contact');
+contactBtn.addEventListener('click', (e)=>{
+    e.preventDefault();
+    contactLoad();
+});
 
 
